@@ -209,7 +209,7 @@ body {
   background-image: url(../IMG/BACKGROUND/BG-main.png);
   background-size: cover;
   padding: 206px 0 206px 100px;
-  max-width: 1600px;
+  width: 100%;
 }
 .hero-main__title {
   font-family: var(--second-font);
@@ -235,7 +235,6 @@ body {
 .about-container {
   display: flex;
   justify-content: space-between;
-  /* margin-top: 130px; */
   padding: 130px 91px 127px 55px;
 }
 .about-list {
@@ -271,14 +270,12 @@ body {
   font-size: 14px;
   line-height: 1.86;
   letter-spacing: 0.02em;
+  margin: 20px 0 40px;
 
   color: #555555;
-
-  margin: 20px 0 40px;
 }
 .about-container .btn-modal__form {
   color: #000;
-  /* background-color: var(--accent-color); */
 }
 .about-container .btn-modal__form:hover,
 .about-container .btn-modal__form:focus {
@@ -287,9 +284,9 @@ body {
 
 /* =============================== PRICE */
 .price-container {
-  /* display: flex; */
   padding: 130px 55px;
   width: 100%;
+
   background-color: #111319;
   background-image: url('../IMG/BACKGROUND/BG-services_and_price.png');
   background-size: cover;
@@ -309,9 +306,9 @@ body {
   font-size: 42px;
   line-height: 1.16;
   letter-spacing: 0.05em;
+  margin: 20px 0 44px;
 
   color: #ffffff;
-  margin: 20px 0 44px;
 }
 .price-column {
   display: flex;
@@ -337,11 +334,9 @@ body {
   justify-content: space-between;
 }
 .price-container .btn-modal__form {
-  /* display: flex; */
   display: block;
   margin: 50px auto 0px;
   justify-content: center;
-  /* align-items: center; */
 }
 
 /* =============================== OLD SCHOOL */
@@ -358,16 +353,16 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
   padding: 120px 60px;
 }
 .school-item__counter {
   width: 170px;
   height: 133px;
-  background: #f7f7f7;
   flex-direction: row;
   align-items: baseline;
   padding: 20px 24px;
+
+  background: #f7f7f7;
 }
 .school-item__counter:nth-child(2n + 1) {
   margin: 0 30px 30px 0;
@@ -403,16 +398,14 @@ body {
   letter-spacing: 0.05em;
 
   color: #303030;
-
-  /* padding-right: 100px; */
 }
-
 .school-text__box {
   padding: 130px 125px 0 0;
 }
 .school-title {
   margin: 20px 0;
 }
+
 /* ================================ MASTERS */
 .masters-container {
   background: #f7f7f7;
@@ -444,8 +437,6 @@ body {
   color: #303030;
 }
 .mastar-card__box {
-  /* background-color: gray; */
-
   padding-top: 30px;
   text-align: center;
 }
@@ -464,7 +455,6 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.35;
-  /* text-align: center; */
   letter-spacing: 0.02em;
 
   color: #ff6c00;
@@ -484,12 +474,12 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 100px;
-  /* background-color: var(--accent-color); */
 }
 .card-icon {
   width: 40px;
   height: 40px;
   border-radius: 100px;
+
   background-color: var(--accent-color);
 }
 
@@ -554,11 +544,11 @@ body {
   line-height: 1.19;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-
   min-width: 100%;
   min-height: 24px;
 
   color: rgba(157, 164, 189, 0.4);
+
   background-color: transparent;
   border-color: transparent transparent rgba(157, 164, 189, 0.4);
   border-style: solid;
@@ -580,14 +570,14 @@ body {
   text-transform: uppercase;
   margin: 0 auto;
   cursor: pointer;
-
   width: 160px;
   height: 40px;
+
   border: 1px solid #ff6c00;
   box-sizing: border-box;
   border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0);
 
+  background-color: rgba(0, 0, 0, 0);
   color: #ffffff;
 }
 .btn-send:hover,
