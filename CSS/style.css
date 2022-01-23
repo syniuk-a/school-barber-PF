@@ -521,10 +521,10 @@ body {
   width: 100%;
   display: flex;
   max-height: 644px;
-  /* width: calc(100% / 2-15px); */
+
+  background-color: #191c26;
 }
 .info-container {
-  background-color: #191c26;
   min-width: calc(100% / 2);
   padding: 130px 25px 183px 40px;
 }
