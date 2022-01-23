@@ -543,13 +543,11 @@ body {
   flex-wrap: wrap;
   margin-right: -30px;
   margin-top: -30px;
-  /* width: calc(100% / 3 - 30px); */
 }
 .info-form__line {
   margin-right: 30px;
   margin-top: 30px;
 }
-
 .info-input__text {
   font-weight: 600;
   font-size: 11px;
@@ -564,7 +562,6 @@ body {
   background-color: transparent;
   border-color: transparent transparent rgba(157, 164, 189, 0.4);
   border-style: solid;
-  /* opacity: 1; */
 }
 .info-input__text:hover,
 .info-input__text:focus {
@@ -581,8 +578,8 @@ body {
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-
-  color: #ffffff;
+  margin: 0 auto;
+  cursor: pointer;
 
   width: 160px;
   height: 40px;
@@ -591,9 +588,7 @@ body {
   border-radius: 25px;
   background-color: rgba(0, 0, 0, 0);
 
-  cursor: pointer;
-
-  margin: 0 auto;
+  color: #ffffff;
 }
 .btn-send:hover,
 .btn-send:focus {
@@ -606,9 +601,6 @@ body {
   min-width: calc(100% / 2);
   background-image: url(../IMG/BACKGROUND/Bg-contacts_page.png);
 }
-/* contacts-container__address{
-
-} */
 .contacts-container__title {
   font-family: var(--second-font);
   font-weight: 700;
