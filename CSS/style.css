@@ -206,6 +206,9 @@ body {
 /* == R LINE */
 .bg-hero__container {
   background-color: rgba(25, 28, 38, 0.2);
+  /* просмотреть еще раз лекцию и позиционирование картинки.
+  нужно разместить картинку с отрицательным показателем под контент.
+  таким образим растянем её на два контента (под хедер)*/
   background-image: url(../IMG/BACKGROUND/BG-main.png);
   background-size: cover;
   padding: 206px 0 206px 100px;
