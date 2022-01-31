@@ -112,7 +112,7 @@
             <p class="subtitle-text">Проведи время в компании лучших мастеров</p>
             <h2 class="price-title">Услуги и цены</h2>
             <div class="price-column">
-                <ul class="price-list list">
+                <ul class="price-list price-list__left-grad list">
                     <li class="price-item">
                         <span class="price-container__service">Мужская стрижка</span>
                         <span class="price-container__price">от 300 грн.</span>
@@ -130,7 +130,7 @@
                         <span class="price-container__price">от 200 грн.</span>
                     </li>
                 </ul>
-                <ul class="price-list list">
+                <ul class="price-list price-list__rigth-grad list">
                     <li class="price-item">
                         <span class="price-container__service">Cтрижка у стажера</span>
                         <span class="price-container__price">от 50 грн.</span>
@@ -189,35 +189,36 @@
             <h2 class="master-title">Наши мастера</h2>
             <ul class="master-card__list list">
                 <li class="master-card__item">
-                    <img class="master-card__img" src="./IMG/MASTERS/photo-1_John Smith.png" alt="мастер работает"
-                        width="370" heigth="346">
-                    <div class="mastar-card__box">
-                        <h3 class="master-card__title" lang="en">John Smith</h3>
-                        <p class="master-card__vacantion" lang="en">ExtrTeme Barber</p>
-                        <ul class="card-icon__box list">
-                            <li class="card-icon__item">
-                                <a class="card-icon__link link" href="#">
-                                    <svg class="card-icon"></svg>
-                                </a>
-                            </li>
-                            <li class="card-icon__item">
-                                <a class="card-icon__link link" href="#">
-                                    <svg class="card-icon"></svg>
-                                </a>
-                            </li>
-                            <li class="card-icon__item">
-                                <a class="card-icon__link link" href="#">
-                                    <svg class="card-icon"></svg>
-                                </a>
-                            </li>
-                            <li class="card-icon__item">
-                                <a class="card-icon__link link" href="#">
-                                    <svg class="card-icon"></svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
+                    <a class="master-card__link link" href="#">
+                        <img class="master-card__img" src="./IMG/MASTERS/photo-1_John Smith.png" alt="мастер работает"
+                            width="370" heigth="346">
+                        <div class="mastar-card__box">
+                            <h3 class="master-card__title" lang="en">John Smith</h3>
+                            <p class="master-card__vacantion" lang="en">ExtrTeme Barber</p>
+                            <ul class="card-icon__box list">
+                                <li class="card-icon__item">
+                                    <a class="card-icon__link link" href="#">
+                                        <svg class="card-icon"></svg>
+                                    </a>
+                                </li>
+                                <li class="card-icon__item">
+                                    <a class="card-icon__link link" href="#">
+                                        <svg class="card-icon"></svg>
+                                    </a>
+                                </li>
+                                <li class="card-icon__item">
+                                    <a class="card-icon__link link" href="#">
+                                        <svg class="card-icon"></svg>
+                                    </a>
+                                </li>
+                                <li class="card-icon__item">
+                                    <a class="card-icon__link link" href="#">
+                                        <svg class="card-icon"></svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
                 </li>
                 <li class="master-card__item">
                     <img class="master-card__img" src="./IMG/MASTERS/photo-2_Michele Doe.png" alt="мастер работает"
@@ -368,7 +369,7 @@
 
         <!-- == INFO === -->
         <section class="info-contact__container container">
-
+            <!-- == FORM == -->
             <div class="info-container">
                 <h2 class="info-container__title">Онлайн-запись</h2>
                 <form class="info-form__container" action="#" method="post">
@@ -397,23 +398,23 @@
                 <address class="contacts-container__address address">
                     <ul class="contacts-container__list list">
                         <li class="contacts-container__item">
-                            <a class="footer-kontakt__text link" href="https://goo.gl/maps/9ibk7dhuauwt6eV98"
-                                target="_blank" rel="noopener noreferrer">ул. Васильковая, 7А
+                            <svg class="contacts-container__icon">
+                            </svg>
+                            <a class="footer-kontakt__text link" target="_blank" rel="noopener noreferrer">ул.
+                                Васильковая, 7А
                                 Киев, 08132
-                                <svg class="contacts-container__icon">
-                                </svg>
                             </a>
                         </li>
                         <li class="contacts-container__item">
+                            <svg class="contacts-container__icon">
+                            </svg>
                             <a class="footer-kontakt__text link" href="tel:+380441111111">+38 044 111 11 11
-                                <svg class="contacts-container__icon">
-                                </svg>
                             </a>
                         </li>
                         <li class="contacts-container__item">
+                            <svg class="contacts-container__icon">
+                            </svg>
                             <a class="footer-kontakt__text link" href="mailto:barbershop@email.com">barbershop@email.com
-                                <svg class="contacts-container__icon">
-                                </svg>
                             </a>
                         </li>
                     </ul>
@@ -422,8 +423,6 @@
                 <p class="contacts-container__work-time">Ежедневно с 9:00 до 22:00</p>
             </div>
         </section>
-
-
     </main>
 
     <!-- ======= FOOTER ===== -->
