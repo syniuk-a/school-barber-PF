@@ -547,18 +547,27 @@ body {
   margin-left: 8px;
 }
 .card-icon__link {
+  display: flex;
   display: inherit;
-  width: 40px;
-  height: 40px;
-  border-radius: 100px;
+  border-radius: 50px;
 }
 .card-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 100px;
-
-  background-color: var(--accent-color);
+  /* position: relative; */
+  /* display: flex; */
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  background-color: white;
+  padding-left: 12px;
 }
+/* .card-icon__img {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  transform: translate(-50%, -50%);
+} */
 
 /* ================================ GALLARY */
 .gallary-container .subtitle-text {
