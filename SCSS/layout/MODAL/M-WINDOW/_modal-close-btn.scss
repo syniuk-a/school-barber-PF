@@ -1,0 +1,25 @@
+.modal-close__btn {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid rgb(170, 168, 168);
+}
+.modal-close__btn-cross {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  fill: #aaa8a8;
+}
+.modal-close__btn:hover {
+  border-color: var(--accent-color);
+}
+.modal-close__btn:hover .modal-close__btn-cross {
+  fill: var(--accent-color);
+}

@@ -1,0 +1,24 @@
+.card-icon__box {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 30px 82px;
+  margin-left: -8px;
+}
+.card-icon__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  background-color: #ffffff;
+}
+.card-icon {
+  width: 20px;
+  height: 20px;
+}
+.card-icon:focus .card-icon__img,
+.card-icon:hover .card-icon__img {
+  fill: var(--accent-color);
+}

@@ -1,0 +1,16 @@
+.masters-container .subtitle-text {
+  color: #303030;
+}
+.masters-container .subtitle-text::before {
+  background-color: #303030;
+}
+.master-title {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  margin: 20px 0 44px 0;
+
+  color: #303030;
+}

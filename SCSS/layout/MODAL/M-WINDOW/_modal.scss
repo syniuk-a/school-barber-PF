@@ -1,0 +1,21 @@
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+  width: 520px;
+  height: 528px;
+
+  background-image: linear-gradient(
+      to left,
+      rgba(25, 28, 38, 0.7),
+      rgba(25, 28, 38, 0.7)
+    ),
+    url('../IMG/BACKGROUND/bg_modal.jpg');
+
+  box-shadow: 0px 1px 3px rgba(187, 182, 182, 0.12),
+    0px 1px 1px rgba(187, 182, 182, 0.14), 0px 2px 1px rgba(187, 182, 182, 0.2);
+  border-radius: 4px;
+  padding: 20px 20px;
+}

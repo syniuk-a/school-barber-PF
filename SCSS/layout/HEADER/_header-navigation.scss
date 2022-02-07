@@ -1,0 +1,23 @@
+.header-nav {
+  display: inherit;
+}
+.header-nav__list {
+  display: flex;
+  display: inherit;
+  margin-top: 52px;
+  margin-left: 71px;
+}
+.header-nav__link {
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+  margin-right: 40px;
+}
+.header-nav__link:hover,
+.header-nav__link:focus {
+  color: #ff6c00;
+}

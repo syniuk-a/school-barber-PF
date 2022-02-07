@@ -1,0 +1,30 @@
+.contacts-container__list {
+  margin-top: -20px;
+  /* max-width: 270px; */
+}
+.contacts-container__item {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+.contacts-container__item:hover .footer-kontakt__text {
+  color: var(--accent-color);
+}
+.contacts-container__item:hover .contacts-container__icon-img {
+  fill: var(--accent-color);
+}
+.footer-kontakt__text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+
+  color: #9da4bd;
+}
+.contacts-container__icon {
+  display: inline-block;
+
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+  fill: #9da4bd;
+}

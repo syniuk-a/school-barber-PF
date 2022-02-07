@@ -1,7 +1,64 @@
 @import './utils/variables';
-@import './base/common';
-@import './components/modal-btn';
 @import './utils/visually-hidden';
+
+@import './base/common';
+
+@import './components/modal-btn';
 @import './components/container/container';
 @import './components/container/container-text';
 @import './components/subtitle-text';
+
+@import './layout/HEADER/header-section';
+@import './layout/HEADER/header-logo';
+@import './layout/HEADER/header-navigation';
+@import './layout/HEADER/header-contact-link';
+
+@import './layout/HERO/hero-main-components';
+@import './layout/HERO/hero-left/left-box';
+@import './layout/HERO/hero-left/left-social';
+@import './layout/HERO/hero-rigth/rigth-BG';
+@import './layout/HERO/hero-rigth/rigth-text';
+
+@import './layout/about/about-container';
+@import './layout/about/about-img';
+@import './layout/about/about-text';
+@import './layout/about/about-btn';
+
+@import './layout/PRICE/price-container';
+@import './layout/PRICE/price-price';
+@import './layout/PRICE/price-text';
+@import './layout/PRICE/price-btn';
+
+@import './layout/OLD-SCHOOL/school-container';
+@import './layout/OLD-SCHOOL/school-r-block';
+@import './layout/OLD-SCHOOL/school-L-block';
+
+@import './layout/MASTERS/masters-container';
+@import './layout/MASTERS/masters-text';
+@import './layout/MASTERS/MASTER-CARD/master-cadr';
+@import './layout/MASTERS/MASTER-CARD/social';
+
+@import './layout/GALLARY/gallary';
+
+@import './layout/BOTTOM/bottom-container';
+@import './layout/BOTTOM/information/info-container';
+@import './layout/BOTTOM/information/info-title';
+@import './layout/BOTTOM/information/info-form';
+@import './layout/BOTTOM/contact/contack-container';
+@import './layout/BOTTOM/contact/contact-title';
+@import './layout/BOTTOM/contact/contack-address-list';
+@import './layout/BOTTOM/contact/contact-work-time';
+
+@import './layout/FOOTER/footer-container';
+@import './layout/FOOTER/footer-copy';
+@import './layout/FOOTER/footer-social';
+
+@import './layout/MODAL/backdrop';
+@import './layout/MODAL/M-WINDOW/modal';
+@import './layout/MODAL/M-WINDOW/modal-close-btn';
+@import './layout/MODAL/M-WINDOW/is-hidden';
+@import './layout/MODAL/M-WINDOW/modal-title';
+@import './layout/MODAL/M-WINDOW/window-form/modal-form';
+@import './layout/MODAL/M-WINDOW/window-form/nodal-form-icon';
+@import './layout/MODAL/M-WINDOW/modal-checkbox';
+@import './layout/MODAL/M-WINDOW/modal-send-btn';

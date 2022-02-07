@@ -1,0 +1,62 @@
+.price-column {
+  display: flex;
+  justify-content: center;
+}
+.price-list__left-grad {
+  background-image: linear-gradient(
+    180deg,
+    #171a24 0%,
+    rgba(23, 26, 36, 0.2) 100%
+  );
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.price-list__rigth-grad {
+  background-image: linear-gradient(
+    180deg,
+    #090b13 0%,
+    rgba(9, 11, 19, 0.2) 100%
+  );
+}
+.price-container__service,
+.price-container__price {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+
+  color: #9da4bd;
+}
+.price-list {
+  box-sizing: content-box;
+  width: 505px;
+  height: 180px;
+  padding: 30px 40px;
+}
+.price-item {
+  display: flex;
+  justify-content: space-between;
+}
+/* ПРИ УВЕЛИЧЕНИИ КОЛИЧЕСТВА ЛИСТОВ ПРАЙСА УХОДИМ
+И МОЖНО СДЕЛАТЬ ЧЕРЕЗ "РЕБЁНКА" ТАКИМ ОБРАЗОМ
+МЫ МОЖЕМ УПРОСТИТЬ И ПОВЕСИТЬ ВСЮДУ ОДИН ТОН И
+УКАЗАТЬ ЧТО В ШАХМАТНОМ ПОРЯДКЕ МЫ ВЕШАЕМ НА ПРАЙСЫ ФОН ТЕМНЕЙ
+
+4n - 1
+4 * 0 - 1 = -1;
+4 * 1 - 1 = 3
+4 * 2 - 1 = 7
+
+4 * 0 - 2 = =2;
+4 * 1 - 2 = 2
+4 * 2 - 2 = 6
+
+и того мы выбрали 2,3,6,7
+
+.price-list:nth-child(4n-1),
+.price-list:nth-child(4n-2) {
+  background-image: linear-gradient(
+    180deg,
+    #090b13 0%,
+    rgba(9, 11, 19, 0.2) 100%
+  );
+} */

@@ -1,0 +1,10 @@
+.contacts-container {
+  padding: 130px 105px 130px 100px;
+  min-width: calc(100% / 2);
+  background-image: linear-gradient(
+      rgba(25, 28, 38, 0.9) 100%,
+      rgba(25, 28, 38, 0.9) 100%
+    ),
+    url('../IMG/BACKGROUND/bg_foter-contack.jpg');
+  /* background-size: cover; */
+}

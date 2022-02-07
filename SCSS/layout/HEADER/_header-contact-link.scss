@@ -1,0 +1,17 @@
+.tel-link {
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+
+  margin: 52px 40px 0 auto;
+}
+.tel-link:hover,
+.tel-link:focus {
+  color: #ff6c00;
+}
+.header-section .btn-modal__form {
+  margin-top: 40px;
+}
