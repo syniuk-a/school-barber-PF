@@ -5,13 +5,9 @@
   line-height: 1.33;
   letter-spacing: 0.1em;
   color: #ffffff;
-
   margin: 52px 40px 0 auto;
-}
-.tel-link:hover,
-.tel-link:focus {
-  color: #ff6c00;
-}
-.header-section .btn-modal__form {
-  margin-top: 40px;
+  &:hover,
+  &:focus {
+    color: #ff6c00;
+  }
 }

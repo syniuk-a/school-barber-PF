@@ -14,15 +14,19 @@
   line-height: 1.19;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  min-width: 100%;
+  min-width: 260px;
   min-height: 24px;
   color: rgba(157, 164, 189, 0.4);
   background-color: transparent;
   border-color: transparent transparent rgba(157, 164, 189, 0.4);
+  resize: none;
+  &:hover,
+  &:focus {
+    border-color: transparent transparent whitesmoke;
+  }
 }
-.info-input__text:hover,
-.info-input__text:focus {
-  border-color: transparent transparent whitesmoke;
+.info-massage {
+  width: 100%;
 }
 .info-form__line__line-massege {
   margin: 30px 30px 44px 0;

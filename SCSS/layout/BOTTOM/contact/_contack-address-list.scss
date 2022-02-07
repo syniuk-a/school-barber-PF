@@ -6,12 +6,12 @@
   display: flex;
   margin-top: 20px;
   align-items: center;
-}
-.contacts-container__item:hover .footer-kontakt__text {
-  color: var(--accent-color);
-}
-.contacts-container__item:hover .contacts-container__icon-img {
-  fill: var(--accent-color);
+  &:hover .contacts-container__icon-img {
+    fill: var(--accent-color);
+  }
+  &:hover .footer-kontakt__text {
+    color: var(--accent-color);
+  }
 }
 .footer-kontakt__text {
   font-size: 18px;

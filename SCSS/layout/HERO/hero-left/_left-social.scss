@@ -1,16 +1,16 @@
 .hero-social__list {
   display: flex;
   transform: rotate(270deg);
+  &::before {
+    display: block;
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: #303030;
+  }
 }
 .hero-social__item {
   margin-left: 10px;
-}
-.hero-social__list::before {
-  display: block;
-  content: '';
-  width: 60px;
-  height: 1px;
-  background-color: #303030;
 }
 .hero-social__link {
   margin-left: 40px;
@@ -20,12 +20,12 @@
   line-height: 1.36;
   letter-spacing: 0.2em;
   color: #303030;
-}
-.hero-social__link:hover,
-.hero-social__link:focus {
-  color: #ff6c00;
-}
-// вохможно нужно почистить
-.hero-social__link:not(:last-child) {
-  margin-right: 40px;
+  &:hover,
+  &:focus {
+    color: #ff6c00;
+  }
+  // вохможно нужно почистить
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
 }

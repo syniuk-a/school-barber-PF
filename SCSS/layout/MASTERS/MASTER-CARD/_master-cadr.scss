@@ -1,10 +1,23 @@
-.master-card__link:focus .master-card__item:focus {
-  box-shadow: 0px 0px 8px 3px #191c26;
-  cursor: pointer;
+// .master-card__link:focus.master-card__item:focus {
+//   box-shadow: 0px 0px 8px 3px #191c26;
+//   cursor: pointer;
+// внести изменения в html, вложить в ссылку}
+.master-card__list {
+  display: flex;
+  // justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: -30px;
+  margin-top: -30px;
 }
-.master-card__item:hover {
-  box-shadow: 0px 0px 8px 3px #191c26;
+.master-card__item {
+  margin-left: 30px;
+  margin-top: 30px;
   cursor: pointer;
+  &:focus,
+  &:hover {
+    box-shadow: 0px 0px 8px 3px #191c26;
+  }
 }
 .master-card__title {
   font-weight: normal;
@@ -17,18 +30,6 @@
 .mastar-card__box {
   padding-top: 30px;
   text-align: center;
-}
-.master-card__list {
-  display: flex;
-  // justify-content: center;
-  flex-wrap: wrap;
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: -30px;
-  margin-top: -30px;
-}
-.master-card__item {
-  margin-left: 30px;
-  margin-top: 30px;
 }
 .master-card__vacantion {
   font-weight: normal;

@@ -15,8 +15,8 @@
   height: 40px;
   padding-top: 12px;
   padding-bottom: 12px;
-}
-.btn-modal__form:hover,
-.btn-modal__form:focus {
-  background-color: #ff6c00;
+  &:hover,
+  &:focus {
+    background-color: #ff6c00;
+  }
 }

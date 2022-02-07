@@ -1,9 +1,9 @@
-.hero-container .subtitle-text {
-  color: rgba(157, 164, 189, 0.6);
-}
-.hero-container .subtitle-text::before {
-  background-color: rgba(157, 164, 189, 0.6);
-}
 .hero-container {
   display: flex;
+  .subtitle-text {
+    color: rgba(157, 164, 189, 0.6);
+    &::before {
+      background-color: rgba(157, 164, 189, 0.6);
+    }
+  }
 }

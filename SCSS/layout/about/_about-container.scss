@@ -1,14 +1,28 @@
-.about-container .subtitle-text {
-  color: #303030;
-}
-.about-container__text .subtitle-text::before {
-  background-color: #303030;
-}
+// .about-container .subtitle-text {
+//   color: #303030;
+// }
+// .about-container__text .subtitle-text::before {
+//   background-color: #303030;
+// }
+// .about-container {
+//   display: flex;
+//   justify-content: space-between;
+//   padding: 130px 91px 127px 55px;
+// }
+// .about-list {
+//   display: flex;
+// }
 .about-container {
   display: flex;
   justify-content: space-between;
   padding: 130px 91px 127px 55px;
+  .about-list {
+    display: flex;
+  }
 }
-.about-list {
-  display: flex;
+.subtitle-text {
+  color: #303030;
+  .about-container__text &::before {
+    background-color: #303030;
+  }
 }

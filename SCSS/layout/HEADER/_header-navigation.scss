@@ -16,8 +16,8 @@
 
   color: #ffffff;
   margin-right: 40px;
-}
-.header-nav__link:hover,
-.header-nav__link:focus {
-  color: #ff6c00;
+  &:hover,
+  &:focus {
+    color: #ff6c00;
+  }
 }

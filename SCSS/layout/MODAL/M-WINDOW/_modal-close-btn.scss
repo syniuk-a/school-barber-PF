@@ -7,6 +7,9 @@
   background-color: transparent;
   border-radius: 50%;
   border: 1px solid rgb(170, 168, 168);
+  &:hover {
+    border-color: var(--accent-color);
+  }
 }
 .modal-close__btn-cross {
   position: absolute;
@@ -17,9 +20,7 @@
   transform: translate(-50%, -50%);
   fill: #aaa8a8;
 }
-.modal-close__btn:hover {
-  border-color: var(--accent-color);
-}
+
 .modal-close__btn:hover .modal-close__btn-cross {
   fill: var(--accent-color);
 }

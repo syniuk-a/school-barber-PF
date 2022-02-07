@@ -3,14 +3,14 @@
   margin-left: -40px;
   align-items: center;
   justify-content: center;
-}
-.footer-social__list::before {
-  display: block;
-  content: '';
-  width: 60px;
-  height: 1px;
-  margin-right: 20px;
-  background-color: #303030;
+  &::before {
+    display: block;
+    content: '';
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
+    background-color: #303030;
+  }
 }
 .footer-social__link {
   margin-left: 40px;

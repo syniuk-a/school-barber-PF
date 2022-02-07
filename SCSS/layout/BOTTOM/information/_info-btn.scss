@@ -15,9 +15,9 @@
 
   background-color: rgba(0, 0, 0, 0);
   color: #ffffff;
-}
-.btn-send:hover,
-.btn-send:focus {
-  background-color: #ff6c00;
-  color: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: #ff6c00;
+    color: #ffffff;
+  }
 }
