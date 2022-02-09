@@ -1,7 +1,9 @@
-.about-container .btn-modal__form {
-  color: #000;
-  &:hover,
-  &:focus {
-    color: whitesmoke;
+.about-container {
+  .btn-modal__form {
+    color: #000;
+    &:hover,
+    &:focus {
+      color: whitesmoke;
+    }
   }
 }

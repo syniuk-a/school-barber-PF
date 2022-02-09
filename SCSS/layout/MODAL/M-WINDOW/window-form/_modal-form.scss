@@ -19,15 +19,15 @@
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: #252525;
+  &:focus,
+  &:hover {
+    outline-color: rgb(43, 55, 226);
+    &:not(:placeholder-shown) {
+      outline-color: var(--accent-color);
+    }
+  }
 }
-.modal-form__line:focus,
-.modal-form__line:hover {
-  outline-color: rgb(43, 55, 226);
-}
-.modal-form__line:focus:not(:placeholder-shown),
-.modal-form__line:hover:not(:placeholder-shown) {
-  outline-color: var(--accent-color);
-}
+
 // .modal-form__line {
 //   margin: 4px 0 60px 0;
 //   font-family: var(--main-font);

@@ -1,12 +1,20 @@
-.school-container__counter::after {
-  display: ibline-block;
-  position: absolute;
-  content: '+';
-  color: var(--accent-color);
-  width: 13px;
-  height: 22px;
-  font-family: Open Sans;
-  font-weight: 600;
+.school-container__counter {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
+  &::after {
+    display: ibline-block;
+    position: absolute;
+    content: '+';
+    color: var(--accent-color);
+    width: 13px;
+    height: 22px;
+    font-family: Open Sans;
+    font-weight: 600;
+  }
 }
 // пересмотреть контейнер по размерем.
 // изменить калькулятор
@@ -16,30 +24,15 @@
   flex-wrap: wrap;
 }
 .school-item__counter {
-  width: 170px;
-  height: 133px;
-  flex-direction: row;
-  align-items: baseline;
-  padding: 20px 24px;
-
-  background: #f7f7f7;
-}
-.school-item__counter:nth-child(2n + 1) {
-  margin: 0 30px 30px 0;
-}
-.school-item__counter:nth-child(3) {
-  margin: 0 30px 0 0;
-}
-.school-item__counter:nth-child(2n + 2) {
-  margin: 30px 0 0 0;
-}
-.school-container__counter {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.05em;
-  color: #303030;
+  &:nth-child(2n + 1) {
+    margin: 0 30px 30px 0;
+  }
+  &:nth-child(3) {
+    margin: 0 30px 0 0;
+  }
+  &:nth-child(2n + 2) {
+    margin: 30px 0 0 0;
+  }
 }
 .school-counter__text {
   font-weight: 600;

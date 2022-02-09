@@ -3,14 +3,6 @@
 }
 .school-title {
   margin: 20px 0;
-}
-.school-container .subtitle-text {
-  color: #303030;
-}
-.school-container .subtitle-text::before {
-  background-color: #303030;
-}
-.school-title {
   font-family: var(--second-font);
   font-weight: 700;
   font-size: 42px;
@@ -18,6 +10,15 @@
   letter-spacing: 0.05em;
   color: #303030;
 }
-.school-container .container-text {
-  color: #555555;
+
+.school-container {
+  .container-text {
+    color: #303030;
+    &::before {
+      background-color: #303030;
+    }
+  }
+  .subtitle-text {
+    color: #303030;
+  }
 }

@@ -1,6 +1,17 @@
 .left-hero__box {
-  display: flex;
-  width: 155px;
-  align-items: center;
-  justify-content: center;
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 767px) {
+    display: flex;
+    width: 155px;
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (min-width: 1199px) {
+    display: flex;
+    width: 155px;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -19,4 +19,7 @@
   &:focus {
     background-color: #ff6c00;
   }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    display: none;
+  }
 }

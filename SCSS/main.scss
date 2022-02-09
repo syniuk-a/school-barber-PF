@@ -3,15 +3,14 @@
 
 @import './base/common';
 
-@import './components/modal-btn';
 @import './components/container/container';
 @import './components/container/container-text';
 @import './components/subtitle-text';
 
 @import './layout/HEADER/header-section';
-@import './layout/HEADER/header-logo';
 @import './layout/HEADER/header-navigation';
 @import './layout/HEADER/header-contact-link';
+@import './layout/HEADER/modal-btn';
 
 @import './layout/HERO/hero-main-components';
 @import './layout/HERO/hero-left/left-box';

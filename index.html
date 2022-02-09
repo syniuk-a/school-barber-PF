@@ -23,12 +23,15 @@
 <body>
     <header class="header-section container">
         <nav class="header-nav">
-            <a class="logo-link" href="./index.html" target="_blank" rel="noopener noreferrer">
-                <img class="logo-img" src="./IMG/logo/Logo-header.png" alt="logotipe">
+            <a class="logo-link" href="#" target="_blank" rel="noopener noreferrer">
+                <svg class="logo">
+                    <use class="logo-icon" href="./SVG/SPRITE.svg#icon-logo"></use>
+                </svg>
             </a>
             <ul class="header-nav__list list">
                 <li class="header-nav__item">
-                    <a class="header-nav__link link" href="#" target="_blank" rel="noopener noreferrer">О нас</a>
+                    <a class="header-nav__link link" href="#" target="_blank" rel="noopener noreferrer">О
+                        нас</a>
                 </li>
                 <li class="header-nav__item">
                     <a class="header-nav__link link" href="#" target="_blank" rel="noopener noreferrer">Услуги и
@@ -40,15 +43,19 @@
                 <li class="header-nav__item">
                     <a class="header-nav__link link" href="#" target="_blank" rel="noopener noreferrer">Контакты</a>
                 </li>
-
             </ul>
         </nav>
         <a class="tel-link link" href="tel:+380441111111">+38 044 111 11 11</a>
         <button class="btn-modal__form" type="button" data-modal-open>онлайн-запись</button>
+        <button class="btn-burger__modal-form" type="button" data-modal-open>
+            <svg class="burger-btn">
+                <use class="burger-icon" href="./SVG/SPRITE.svg#icon-burger"></use>
+            </svg>
+        </button>
     </header>
 
 
-    <main hero-section>
+    <main>
         <!-- == HERO == -->
         <section class="hero-container container">
             <div class="left-hero__box">
@@ -64,6 +71,16 @@
                 </ul>
             </div>
             <div class="bg-hero__container">
+                <!-- <picture class="bg-hero">
+                    <source media="(min-width: 1200px)"
+                        srcset="./IMG/BACKGROUND/bg-hero@2.jpg 1x, ./IMG/BACKGROUND/bg-hero@2.jpg 2x">
+                    <source media="(min-width: 768px)"
+                        srcset="./IMG/BACKGROUND/tablet/bg-hero-tablet@1.jpg 1x, ./IMG/BACKGROUND/tablet/bg-hero-tablet@2.jpg 2x">
+                    <source media="(min-width: 480px)"
+                        srcset="./IMG/BACKGROUND/mobile/bg-hero-mobile@1.jpg 1x, ./IMG/BACKGROUND/mobile/bg-hero-mobile@2.jpg 2x">
+                    <img src="./IMG/BACKGROUND/bg-hero@2.jpg" alt=""
+                        srcset="./IMG/BACKGROUND/bg-hero@2.jpg 1x, ./IMG/BACKGROUND/bg-hero@2.jpg 2x">
+                </picture> -->
                 <p class="subtitle-text" lang="en">A hair salon for men in Kyiv</p>
                 <h1 class="hero-main__title" lang="en">BarberShop</h1>
                 <p class="container-text">Мы эксперты в модных мужских стрижках.
@@ -75,12 +92,29 @@
             <div class="about-container-img">
                 <ul class="about-list list">
                     <li class="about-item">
-                        <img class="about-img" src="./IMG/ABOUT-US/Lathers-beard.png"
-                            alt="помазком мылит бододу клиенту" width="270" height="445">
+                        <picture>
+                            <source
+                                srcset="./IMG/ABOUT-US/tablet/about-tablet-1@1.jpg 1x, ./IMG/ABOUT-US/tablet/about-tablet-1@2.jpg 2x"
+                                media="(min-width: 1200px)">
+                            <source
+                                srcset="./IMG/ABOUT-US/tablet/about-tablet-1@1.jpg 1x, ./IMG/ABOUT-US/tablet/about-tablet-1@2.jpg 2x"
+                                media="(min-width: 768px)">
+                            <!-- <img class="about-img" src="./IMG/ABOUT-US/Lathers-beard.png"
+                                alt="помазком мылит бододу клиенту"> -->
+                        </picture>
+
                     </li>
                     <li class="about-item">
-                        <img class="about-img" src="./IMG/ABOUT-US/razor_edging.png"
-                            alt="клиенту делают окантовку бритвой" width="270" height="445">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="./IMG/ABOUT-US/tablet/about-tablet-2@1.jpg 1x, ./IMG/ABOUT-US/tablet/about-tablet-2@2.jpg 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="./IMG/ABOUT-US/tablet/about-tablet-2@1.jpg 1x, ./IMG/ABOUT-US/tablet/about-tablet-2@2.jpg 2x">
+                            <!-- <source media="(min-width: 320px)"
+                                srcset="./IMG/ABOUT-US/mobile/about-mobile-2@1.jpg 1x, ./IMG/ABOUT-US/mobile/about-mobile-2@2.jpg 2x">
+                            <img class="about-img" src="./IMG/ABOUT-US/razor_edging.png"
+                                alt="клиенту делают окантовку бритвой"> -->
+                        </picture>
                     </li>
                 </ul>
             </div>
@@ -184,8 +218,15 @@
             <ul class="master-card__list list">
                 <li class="master-card__item">
                     <a class="master-card__link link" href="#">
-                        <img class="master-card__img" src="./IMG/MASTERS/photo-1_John Smith.png" alt="мастер работает"
-                            width="370" heigth="346">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="./IMG/MASTERS/photo-1_John Smith.png">
+                            <source media="(min-width: 768px)"
+                                srcset="./IMG/MASTERS/tablet/img1.jpg 1x, ./IMG/MASTERS/tablet/img1@2.jpg 2x">
+                            <source media="(min-width: 320px)"
+                                srcset="./IMG/MASTERS/mobile/img1.jpg 1x, ./IMG/MASTERS/mobile/img1@2.jpg 2x">
+                            <img class="master-card__img" src="./IMG/MASTERS/photo-1_John Smith.png"
+                                alt="мастер работает" width="370" heigth="346">
+                        </picture>
                         <div class="mastar-card__box">
                             <h3 class="master-card__title" lang="en">John Smith</h3>
                             <p class="master-card__vacantion" lang="en">ExtrTeme Barber</p>
@@ -226,8 +267,15 @@
                     </a>
                 </li>
                 <li class="master-card__item">
-                    <img class="master-card__img" src="./IMG/MASTERS/photo-2_Michele Doe.png" alt="мастер работает"
-                        width="370" heigth="346">
+                    <picture>
+                        <source media="(min-width: 1200px)" srcset="./IMG/MASTERS/photo-2_Michele Doe.png">
+                        <source media="(min-width: 768px)"
+                            srcset="./IMG/MASTERS/tablet/img2.jpg 1x, ./IMG/MASTERS/tablet/img2@2.jpg 2x">
+                        <source media="(min-width: 320px)"
+                            srcset="./IMG/MASTERS/mobile/img2.jpg 1x, ./IMG/MASTERS/mobile/img2@2 2x.jpg">
+                        <img class="master-card__img" src="./IMG/MASTERS/photo-2_Michele Doe.png" alt="мастер работает"
+                            width="370" heigth="346">
+                    </picture>
                     <div class="mastar-card__box">
                         <h3 class="master-card__title" lang="en">Michele Doe</h3>
                         <p class="master-card__vacantion" lang="en">ExtrTeme Barber</p>
@@ -269,8 +317,15 @@
                     </div>
                 </li>
                 <li class="master-card__item">
-                    <img class="master-card__img" src="./IMG/MASTERS/photo-3_Alan Black.png" alt="мастер работает"
-                        width="370" heigth="346">
+                    <picture>
+                        <source media="(min-width: 1200px)" srcset="./IMG/MASTERS/photo-3_Alan Black.png">
+                        <source media="(min-width: 768px)"
+                            srcset="./IMG/MASTERS/tablet/img3.jpg 1x, ./IMG/MASTERS/tablet/img3@2.jpg 2x">
+                        <source media="(min-width: 320px)"
+                            srcset="./IMG/MASTERS/mobile/img3.jpg 1x, ./IMG/MASTERS/mobile/img3@2 2x.jpg">
+                        <img class="master-card__img" src="./IMG/MASTERS/photo-3_Alan Black.png" alt="мастер работает"
+                            width="370" heigth="346">
+                    </picture>
                     <div class="mastar-card__box">
                         <h3 class="master-card__title" lang="en">Alan Black</h3>
                         <p class="master-card__vacantion" lang="en">ExtrTeme Barber</p>
@@ -374,20 +429,48 @@
             <p class="subtitle-text">На латинском языке “барба” означает “борода”</p>
             <ul class="gallary-list list">
                 <li class="gallary-item">
-                    <img class="gallary-img" src="./IMG/GALLARY/Rectangle 25.png" alt="мастер работает" width="270"
-                        height="360">
+                    <picture>
+                        <source media="(min-width: 1200px)" srcset="./IMG/GALLARY/Rectangle-25.png">
+                        <source media="(min-width: 768px)"
+                            srcset="./IMG/GALLARY/tablet/Rectangle-25.jpg 1x, ./IMG/GALLARY/tablet/Rectangle-25@2.jpg 2x">
+                        <source media="(min-width: 320px)"
+                            srcset="./IMG/GALLARY/mobile/Rectangle-25.jpg 1x, ./IMG/GALLARY/mobile/Rectangle-25@2.jpg 2x">
+                        <img class="gallary-img" src="./IMG/GALLARY/Rectangle-25.png" alt="мастер работает" width="270"
+                            height="360">
+                    </picture>
                 </li>
                 <li class="gallary-item">
-                    <img class="gallary-img" src="./IMG/GALLARY/Rectangle 26.png" alt="мастер работает" width="270"
-                        height="360">
+                    <picture>
+                        <source media="(min-width: 1200px)" srcset="./IMG/GALLARY/Rectangle-26.png">
+                        <source media="(min-width: 768px)"
+                            srcset="./IMG/GALLARY/tablet/Rectangle-26.jpg 1x, ./IMG/GALLARY/tablet/Rectangle-26@2.jpg 2x">
+                        <source media="(min-width: 320px)"
+                            srcset="./IMG/GALLARY/mobile/Rectangle-26.jpg 1x, ./IMG/GALLARY/mobile/Rectangle-26@2.jpg 2x">
+                        <img class="gallary-img" src="./IMG/GALLARY/Rectangle-26.png" alt="мастер работает" width="270"
+                            height="360">
+                    </picture>
                 </li>
                 <li class="gallary-item">
-                    <img class="gallary-img" src="./IMG/GALLARY/Rectangle 27.png" alt="мастер работает" width="270"
-                        height="360">
+                    <picture>
+                        <source media="(min-width: 1200px)" srcset="./IMG/GALLARY/Rectangle-27.png">
+                        <source media="(min-width: 768px)"
+                            srcset="./IMG/GALLARY/tablet/Rectangle-27.jpg 1x, ./IMG/GALLARY/tablet/Rectangle-27@2.jpg 2x">
+                        <source media="(min-width: 320px)"
+                            srcset="./IMG/GALLARY/mobile/Rectangle-27.jpg 1x, ./IMG/GALLARY/mobile/Rectangle-27@2.jpg 2x">
+                        <img class="gallary-img" src="./IMG/GALLARY/Rectangle-27.png" alt="мастер работает" width="270"
+                            height="360">
+                    </picture>
                 </li>
                 <li class="gallary-item">
-                    <img class="gallary-img" src="./IMG/GALLARY/Rectangle 28.png" alt="мастер работает" width="270"
-                        height="360">
+                    <picture>
+                        <source media="(min-width: 1200px)" srcset="./IMG/GALLARY/Rectangle-28.png">
+                        <source media="(min-width: 768px)"
+                            srcset="./IMG/GALLARY/tablet/Rectangle-28.jpg 1x, ./IMG/GALLARY/tablet/Rectangle-28@2.jpg 2x">
+                        <source media="(min-width: 320px)"
+                            srcset="./IMG/GALLARY/mobile/Rectangle-28.jpg 1x, ./IMG/GALLARY/mobile/Rectangle-28@2.jpg 2x">
+                        <img class="gallary-img" src="./IMG/GALLARY/Rectangle-28.png" alt="мастер работает" width="270"
+                            height="360">
+                    </picture>
                 </li>
             </ul>
         </section>

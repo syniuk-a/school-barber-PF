@@ -21,9 +21,9 @@
   letter-spacing: 0.03em;
   color: #ffffff;
   cursor: pointer;
-}
-.modal-btn__sub:hover,
-.modal-btn__sub:focus {
-  color: #252525;
-  box-shadow: 0px 4px 4px rgba(230, 224, 224, 0.4);
+  &:hover,
+  &:focus {
+    color: #252525;
+    box-shadow: 0px 4px 4px rgba(230, 224, 224, 0.4);
+  }
 }

@@ -1,5 +1,4 @@
 .bg-hero__container {
-  padding: 206px 0 206px 100px;
   width: 100%;
   background-image: linear-gradient(
       to left,
@@ -10,4 +9,14 @@
   background-size: cover;
   background-position: left top;
   background-origin: border-box;
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    padding: 208px 143px 183px 31px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding: 272px 95px 245px 120px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 272px 95px 245px 120px;
+  }
 }

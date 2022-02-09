@@ -1,11 +1,49 @@
 .header-nav {
   display: inherit;
 }
+.logo-link {
+  position: absolute;
+  left: 39px;
+  top: 32px;
+  &:hover,
+  &:focus {
+    .logo-icon {
+      fill: #ff6c00;
+    }
+  }
+}
+.logo {
+  background-color: transparent;
+  position: absolute;
+  height: 55px;
+  width: 68px;
+}
+.logo-icon {
+  fill: #303030;
+  width: 55px;
+  height: 68px;
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    fill: #ffffff;
+  }
+}
+
 .header-nav__list {
-  display: flex;
-  display: inherit;
-  margin-top: 52px;
-  margin-left: 71px;
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 767px) {
+    display: flex;
+    display: inherit;
+    margin-top: 52px;
+    margin-left: 71px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    display: inherit;
+    margin-top: 52px;
+    margin-left: 71px;
+  }
 }
 .header-nav__link {
   font-family: var(--main-font);
@@ -19,5 +57,32 @@
   &:hover,
   &:focus {
     color: #ff6c00;
+  }
+}
+.btn-burger__modal-form {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    position: absolute;
+    right: 55px;
+    top: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-style: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  &:hover,
+  &:focus {
+    .burger-icon {
+      fill: #ff6c00;
+    }
+  }
+  .burger-btn {
+    width: 40px;
+    height: 40px;
+  }
+  .burger-icon {
+    fill: #ffffff;
   }
 }

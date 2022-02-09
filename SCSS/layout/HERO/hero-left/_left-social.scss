@@ -9,9 +9,6 @@
     background-color: #303030;
   }
 }
-.hero-social__item {
-  margin-left: 10px;
-}
 .hero-social__link {
   margin-left: 40px;
   font-family: var(--main-font);
@@ -23,9 +20,5 @@
   &:hover,
   &:focus {
     color: #ff6c00;
-  }
-  // вохможно нужно почистить
-  &:not(:last-child) {
-    margin-right: 40px;
   }
 }

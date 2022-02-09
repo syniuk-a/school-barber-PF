@@ -1,6 +1,17 @@
+// .about-container__text {
+//   color: #303030;
+// }
 .about-container__text {
+  color: #303030;
   margin-left: 34px;
+  ::before {
+    background-color: #303030;
+  }
+  .subtitle-text {
+    color: #303030;
+  }
 }
+
 .about-main__title {
   font-family: var(--second-font);
   font-weight: 700;

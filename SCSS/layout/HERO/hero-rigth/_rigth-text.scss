@@ -1,15 +1,34 @@
 .hero-main__title {
-  margin: 20px 0;
-  font-family: var(--second-font);
-  font-weight: 700;
-  font-size: 72px;
-  line-height: 1.18;
-  letter-spacing: 0.05em;
-  color: #ffffff;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin: 20px 0;
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin: 20px 0;
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+  }
+  @media screen and (min-width: 1200px) {
+    margin: 20px 0;
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+  }
 }
 .hero-container {
   .container-text {
     color: #9da4bd;
-    max-width: 468px;
   }
 }

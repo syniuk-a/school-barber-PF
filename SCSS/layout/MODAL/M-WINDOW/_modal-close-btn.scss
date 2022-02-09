@@ -19,8 +19,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   fill: #aaa8a8;
-}
-
-.modal-close__btn:hover .modal-close__btn-cross {
-  fill: var(--accent-color);
+  .modal-close__btn:hover & {
+    fill: var(--accent-color);
+  }
 }
