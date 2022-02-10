@@ -1,4 +1,8 @@
 .gallary-container {
+  @media screen and (min-width: 320px) {
+    padding: 84px 31px;
+    margin: 0 auto;
+  }
   padding: 130px 55px;
   .subtitle-text {
     color: #303030;
@@ -11,9 +15,15 @@
 .gallary-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+  justify-content: center;
+  @media screen and (min-width: 767px) {
+    margin-left: -30px;
+  }
 }
 .gallary-item {
+  @media screen and (min-width: 320px) {
+    margin-top: 30px;
+  }
   margin-left: 30px;
   &:focus,
   &:hover {

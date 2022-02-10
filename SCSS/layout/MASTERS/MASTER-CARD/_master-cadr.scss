@@ -4,15 +4,31 @@
 // внести изменения в html, вложить в ссылку}
 .master-card__list {
   display: flex;
-  // justify-content: center;
+  justify-content: center;
   flex-wrap: wrap;
   flex-basis: calc(100% / 3 - 30px);
-  margin-left: -30px;
-  margin-top: -30px;
+  @media screen and (min-width: 320px) {
+    &:first-child {
+      margin-top: 0px;
+    }
+    @media screen and (min-width: 767px) {
+      margin-left: -30px;
+      margin-top: -30px;
+    }
+  }
 }
+
 .master-card__item {
-  margin-left: 30px;
-  margin-top: 30px;
+  @media screen and (min-width: 320px) {
+    &:not(:first-child) {
+      margin-top: 64px;
+    }
+    margin-top: 64px;
+  }
+  @media screen and (min-width: 767px) {
+    margin-left: 30px;
+    margin-top: 30px;
+  }
   cursor: pointer;
   &:focus,
   &:hover {

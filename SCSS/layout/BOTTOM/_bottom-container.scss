@@ -1,6 +1,11 @@
 .info-contact__container {
+  // @media screen and (min-width: 320px) {
+  //   padding: 0 31px;
+  // }
+  @media screen and (min-width: 767px) {
+    display: flex;
+  }
   width: 100%;
-  display: flex;
   justify-content: center;
   // max-height: 644px;
   background-color: #191c26;

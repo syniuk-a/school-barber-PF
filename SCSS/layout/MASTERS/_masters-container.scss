@@ -1,5 +1,12 @@
 .masters-container {
   background: #f7f7f7;
-  padding-left: 55px;
-  padding-bottom: 130px;
+  @media screen and (min-width: 320px) {
+    padding: 84px 31px;
+  }
+  @media screen and (min-width: 767px) {
+    padding: 84px 41px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 130px 55px;
+  }
 }

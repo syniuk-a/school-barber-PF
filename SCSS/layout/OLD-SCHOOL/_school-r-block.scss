@@ -1,5 +1,8 @@
 .school-text__box {
   max-width: 500px;
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
 }
 .school-title {
   margin: 20px 0;
@@ -10,15 +13,23 @@
   letter-spacing: 0.05em;
   color: #303030;
 }
-
-.school-container {
-  .container-text {
-    color: #303030;
-    &::before {
-      background-color: #303030;
+.school-item__counter {
+  @media screen and (min-width: 320px) {
+    width: 193px;
+    height: 133px;
+    padding: 20px 35px;
+  }
+}
+.school-text__box-mobile {
+  @media screen and (min-width: 320px) {
+    .subtitle-text {
+      color: #303030;
+      &::before {
+        background-color: #303030;
+      }
     }
   }
-  .subtitle-text {
+  .container-text {
     color: #303030;
   }
 }

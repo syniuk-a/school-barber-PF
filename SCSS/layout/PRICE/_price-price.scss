@@ -1,12 +1,19 @@
 .price-column {
-  display: flex;
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 767px) {
+    display: flex;
+  }
 }
 .price-list {
   box-sizing: content-box;
-  width: 505px;
-  height: 180px;
-  padding: 30px 40px;
-
+  @media screen and (min-width: 767px) {
+    width: 505px;
+    // height: 180px;
+    padding: 30px 40px;
+    margin-bottom: 50px;
+  }
   &__left-grad {
     background-image: linear-gradient(
       180deg,
@@ -29,12 +36,36 @@
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
-
   color: #9da4bd;
+  @media screen and (min-width: 320px) {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2.15;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+  }
+}
+.price-column__for-mobile {
+  @media screen and (min-width: 320px) {
+    padding: 40px 60px;
+    margin-bottom: 50px;
+  }
+  background-image: linear-gradient(
+    180deg,
+    #171a24 0%,
+    rgba(23, 26, 36, 0.2) 100%
+  );
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+  @media screen and (min-width: 767px) {
+    display: none;
+  }
 }
 .price-item {
   display: flex;
   justify-content: space-between;
+  @media screen and (min-width: 320px) {
+    margin-bottom: 10px;
+  }
 }
 // ПРИ УВЕЛИЧЕНИИ КОЛИЧЕСТВА ЛИСТОВ ПРАЙСА УХОДИМ
 // И МОЖНО СДЕЛАТЬ ЧЕРЕЗ "РЕБЁНКА" ТАКИМ ОБРАЗОМ
